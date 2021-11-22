@@ -1,0 +1,9 @@
+<ol class="list-group list-group-numbered">
+    <li *ngFor= "let obtener of photoss"class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">{{obtener.albumId}}</div>
+        <div>{{obtener.Id}}</div>
+        <a>{{obtener.url}}</a>
+      </div>
+    </li>
+  </ol>

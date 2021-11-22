@@ -1,0 +1,10 @@
+
+<ol class="list-group list-group-numbered">
+    <li *ngFor= "let obtener of userss"class="list-group-item d-flex justify-content-between align-items-start">
+      <div class="ms-2 me-auto">
+        <div class="fw-bold">{{obtener.name}}</div>
+        {{obtener.email}}
+      </div>
+      <span class="badge bg-primary rounded-pill">14</span>
+    </li>
+  </ol>
